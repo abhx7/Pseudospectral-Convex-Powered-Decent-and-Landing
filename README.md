@@ -27,12 +27,16 @@ The following plots are generated during simulation and optimization:
 ![Dynamics](https://github.com/abhx7/Pseudospectral-Convex-Powered-Decent-and-Landing/blob/main/Results/cvx-opt_mars_descent_results-lobatto.png)
 
 - **3D Trajectory**
-![3D Trajectory](https://github.com/abhx7/Pseudospectral-Convex-Powered-Decent-and-Landing/blob/main/Results/cvx-opt_mars_descent_trajectory-lobatto.png)
+<p align="center">
+  <img src="https://github.com/abhx7/Pseudospectral-Convex-Powered-Decent-and-Landing/blob/main/Results/cvx-opt_mars_descent_trajectory-lobatto.png" width="45%"/>
+</p>
 
   
 - **Mass consumption over time and height compared to a non-convex solution**
-![](https://github.com/abhx7/Pseudospectral-Convex-Powered-Decent-and-Landing/blob/main/Results/opt_mars_descent_mass_compareL.png)  
-![](https://github.com/abhx7/Pseudospectral-Convex-Powered-Decent-and-Landing/blob/main/Results/opt_mars_descent_mass_compareL_z.png)
+<p align="center">
+  <img src="https://github.com/abhx7/Pseudospectral-Convex-Powered-Decent-and-Landing/blob/main/Results/opt_mars_descent_mass_compareL.png" width="45%"/>
+  <img src="https://github.com/abhx7/Pseudospectral-Convex-Powered-Decent-and-Landing/blob/main/Results/opt_mars_descent_mass_compareL_z.png" width="45%"/>
+</p>
 
 
 - **Trajectory animation** 
