@@ -56,7 +56,7 @@ kt = (tf - t0) / 2;
 t_nodes = kt * (tau + 1);   % collocation nodes in [0,tf]
 
 % differentiate matrix
-d = DifferentiationMatrix(N,tau);        % (N)x(N) barycentric diff matrix
+%d = DifferentiationMatrix(N,tau);        % (N)x(N) barycentric diff matrix
 D = diff_mat_barycentric(tau);
 
 %% ------------------ Build linear dynamics constraint A0*Y = b0  ------------------
@@ -287,7 +287,7 @@ yyaxis right; plot(t_nodes, Tnorm_sol/TmaxTot,'-','LineWidth',1.4); ylabel('||T|
 xlabel('t (s)'); grid on; title('Mass & Throttle');
 set(gca, 'FontSize', 18);
 
-saveas(gcf, 'cvx-opt_mars_descent_results.png');
+saveas(gcf, 'Results/cvx-opt_mars_descent_results-lobatto.png');
 
 
 % 3D Trajectory with thrust vectors
@@ -311,14 +311,14 @@ title('3D Trajectory');
 legend('Trajectory','Start','Target','Thrust direction');
 
 set(gca, 'FontSize', 18);
-saveas(gcf, 'cvx-opt_mars_descent_trajectory.png');
+saveas(gcf, 'Results/cvx-opt_mars_descent_trajectory-lobatto.png');
 
 
 
 % Save
 save('mars_traj_cvx_sol.mat', 'rx','ry','rz','vx','vy','vz','z','ux','uy','uz','s','m_sol','Tnorm_sol','t_nodes');
 
-fprintf('Saved solution to mars_traj_cvx_sol.mat\n');
+fprintf('Saved solution to mars_traj_cvx_sol-lobatto.mat\n');
 
 
 %% Animated Descent Plot
@@ -343,7 +343,7 @@ time_txt = text(r0(1), r0(2), r0(3)+100, '', 'FontSize', 12, 'FontWeight', 'bold
 legend;
 
 % --- Animation and Video Writer ---
-v = VideoWriter('mars_descent_cvx_lob.mp4', 'MPEG-4');
+v = VideoWriter('Results/mars_descent_cvx_lobattto.mp4', 'MPEG-4');
 v.Quality = 100;
 v.FrameRate = 10;
 open(v);
@@ -423,7 +423,7 @@ grid on;
 legend('Location','best');
 set(gca, 'FontSize', 18);
 
-saveas(gcf, 'opt_mars_descent_mass_compare.png');
+saveas(gcf, 'Results/opt_mars_descent_mass_compareL.png');
 
 
 
@@ -438,4 +438,4 @@ grid on;
 legend('Location','best');
 set(gca, 'FontSize', 18);
 
-saveas(gcf, 'opt_mars_descent_mass_compare_z.png');
+saveas(gcf, 'Results/opt_mars_descent_mass_compareL_z.png');
