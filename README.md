@@ -39,7 +39,7 @@ The following plots are generated during simulation and optimization:
 
 - **Trajectory animation**
   
-![3D Trajectory](https://github.com/abhx7/Pseudospectral-Convex-Powered-Decent-and-Landing/blob/main/Results/cvx_traj_anim-lobatto.gif)
+![3D Trajectory](https://github.com/abhx7/Pseudospectral-Convex-Powered-Decent-and-Landing/blob/main/Results/cvx_traj_animation-lobatto.gif)
 
 ---
 
