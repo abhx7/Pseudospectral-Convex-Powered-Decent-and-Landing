@@ -1,13 +1,13 @@
 # Pseudospectral Convex Optimization for Powered Descent and Landing
 
 This repository implements and replicates the results of Marco Sagliano’s work on **Pseudospectral Convex Optimization for Powered Descent and Landing (PDL)**.  
-The project formulates the rocket landing problem as a convex optimization problem using pseudospectral transcription, enabling efficient trajectory optimization under thrust, mass, and glideslope constraints.  
+The project formulates the rocket landing problem on the Martian environment as a convex optimization problem using pseudospectral transcription, enabling efficient trajectory optimization under thrust, mass, and glideslope constraints.  
 
 ---
 
 ## 📖 Description
 
-The code demonstrates how convex optimization can be applied to powered descent and landing problems for reusable launch vehicles (e.g., Falcon 9), providing fuel-optimal and dynamically feasible trajectories.  
+The code demonstrates how convex optimization can be applied to powered descent and landing problems for reusable launch vehicles, providing fuel-optimal and dynamically feasible trajectories.  
 
 It includes:  
 - Pseudospectral transcription of the dynamics  
