@@ -31,7 +31,7 @@ The following plots are generated during simulation and optimization:
 
   
 - **Mass consumption over time and height compared to a non-convex solution**
-![](https://github.com/abhx7/Pseudospectral-Convex-Powered-Decent-and-Landing/blob/main/Results/cvx-opt_mars_descent_trajectory-lobatto.png)  
+![](https://github.com/abhx7/Pseudospectral-Convex-Powered-Decent-and-Landing/blob/main/Results/opt_mars_descent_mass_compareL.png)  
 ![](https://github.com/abhx7/Pseudospectral-Convex-Powered-Decent-and-Landing/blob/main/Results/opt_mars_descent_mass_compareL_z.png)
 
 
